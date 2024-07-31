@@ -1,0 +1,48 @@
+body{
+  color:#ffffff;
+  background-color:rgb(10, 10, 10);
+  font-family:Arial;
+  font-size:40px;
+}
+.title{
+  font-size:50px;font-weight:bold;
+}
+.reset{
+  font-weight:bold;
+  color:#120f0f;
+  padding:7px;
+  background-color:rgb(239, 234, 234);
+  font-size:25px;
+}
+.reset:hover{
+  padding:10px;
+  background-color: blue;;
+}
+button{
+  border:2px solid rgb(17, 12, 12);
+  background-color:black;
+  border-radius:30px;
+  margin-right:10px;
+}
+.rock-name{
+  color:#84188a
+}
+.paper-name{
+  color:#2584c4
+}
+.scissor-name{
+  color:#e9ef27
+}
+img{
+  border-radius:30px;
+  width:135px;height:135px;
+}
+.imgg:hover{
+  width:145px;height:145px;
+  cursor:pointer;
+}
+@media only screen and (max-width: 500px) {
+  body {
+    font-size:60px;
+  }
+}
